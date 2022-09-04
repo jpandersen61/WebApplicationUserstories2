@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WebApplicationUserstories1.Services;
-using WebApplicationUserstories1.Models;
+using WebApplicationUserstories.Services;
+using WebApplicationUserstories.Models;
 
-namespace WebApplicationUserstories1.Pages.UserStories
+namespace WebApplicationUserstories.Pages.UserStories
 {
     public class UserStoriesModel : PageModel
     {

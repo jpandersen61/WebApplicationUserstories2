@@ -1,8 +1,8 @@
-﻿using WebApplicationUserstories1.Models;
-using WebApplicationUserstories1.MockData;
+﻿using WebApplicationUserstories.Models;
+using WebApplicationUserstories.MockData;
 
 
-namespace WebApplicationUserstories1.Services
+namespace WebApplicationUserstories.Services
 {
     public class UserStoryService
     {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace WebApplicationUserstories1.Models
+namespace WebApplicationUserstories.Models
 {
     public class UserStory
     {
