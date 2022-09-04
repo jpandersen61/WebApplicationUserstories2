@@ -1,0 +1,16 @@
+﻿@page
+@model WebApplicationUserstories1.Pages.UserStories.UserStoriesModel
+@{
+}
+
+<h1>User Stories</h1>
+
+<ul>
+@foreach (var userstory in @Model.UserStories)
+{
+<li>
+<div>(@userstory.Id) @userstory.Title </div>
+<div>@userstory.Description</div>
+</li>
+}
+</ul>
