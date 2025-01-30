@@ -1,0 +1,37 @@
+﻿@page
+@model WebApplicationUserstories2.Pages.UserStories.UserStoryDetailModel
+@{
+}
+
+<!-- Modal -->
+<div id="myModal" class="modal">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Title</h5>
+                <a type="button" class="close" asp-page="/UserStories/UserStories">&times;</a>
+
+            </div>
+            <div class="modal-body">
+                <!-- Render the user story details here-->
+ 
+            </div>
+            <div class="modal-footer">
+                <a type="button" class="btn btn-danger" asp-page="UserStories">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function() {
+            $("#myModal").modal({ backdrop: "static" });
+            $("#myModal").modal('show');
+        })
+    </script>
+
+
+}
